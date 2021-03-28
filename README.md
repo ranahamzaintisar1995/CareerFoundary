@@ -26,3 +26,7 @@ The data after the transformation looks like this:
 | 2020-01-01 | 17.739562 | 7231.81 | 7150.00 | 32.994884 | 88 |
 | 2020-01-02 | 82.482764 | 7184.86 | 6922.98  | 327.606155 | 649 |
 | 2020-01-03 | 149.543404 | 7389.02 | 6871.93 | 353.685560 | 544 |
+
+
+## Deliverable 2
+Since the data was static and pretty much a small, so it doesnot require to be delployed as a live stream would have been. The simplest way to dpeloy is using Apache Airflow, since the progress can be monitored whether the job ran or failed at any point. It can also be easily defined how many times the code needs to be ran, in our case the code needs to be executed simply once.
