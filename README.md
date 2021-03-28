@@ -17,4 +17,12 @@ Nested for loops were used to get each day in every month and metrics were gener
 - maximum volume traded
 - maximum trades
 
+The attached python file gives a better understanding of how the objective was achieved.
+Unfortunately due to lack of time, the data was prepared but not inserted inside a database.
 
+The data after the transformation looks like this:
+| date | volatility | maxPrice | minPrice | maxVolumeTraded | maxtrades |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| 2020-01-01 | 17.739562 | 7231.81 | 7150.00 | 32.994884 | 88 |
+| 2020-01-02 | 82.482764 | 7184.86 | 6922.98  | 327.606155 | 649 |
+| 2020-01-03 | 149.543404 | 7389.02 | 6871.93 | 353.685560 | 544 |
