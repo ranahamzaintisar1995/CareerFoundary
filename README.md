@@ -1,5 +1,5 @@
 # CareerFoundary
-Coding challange at Career Foundary
+Coding challenge at Career Foundary
 
 ## How to run
 The project consists of one python file which is straight executable.
@@ -30,3 +30,5 @@ The data after the transformation looks like this:
 
 ## Deliverable 2
 Since the data was static and pretty much a small, so it doesnot require to be delployed as a live stream would have been. The simplest way to dpeloy is using Apache Airflow, since the progress can be monitored whether the job ran or failed at any point. It can also be easily defined how many times the code needs to be ran, in our case the code needs to be executed simply once.
+
+If the data we were dealing was a live stream, the code structure had been different than what is implemented here. In that case we had to keep in mind to continuously read from the feed and keep the tranformations based on whether streaming or batch data was required. The whole files with the environment would then be packaged as a docker container and deployed on a cloud based framework or simply ran on a Kubernetes based engine(which can be ran on a cloud framework or without it too).
